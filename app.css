@@ -37,8 +37,14 @@ GREY
 Base: #495057 (slate)
 Tint: #f1f3f5 (Pebble)
 Shade: #212529 (Graphite)
+White: #ffffff (white)
+Black: #000000 (black)
 
 */
+
+/* ----------- GLOBAL STYLES ----------- */
+
+/* Add in universal selector later */
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -55,12 +61,10 @@ h1, h2, h3, h4, h5 {
 }
 
 h1{
-    text-align: center;
     font-size: 62px;
 }
 
 h2{
-    text-align: center;
     font-size: 48px;
 }
 
@@ -99,6 +103,8 @@ ul{
     font-size: 12px;
 }
 
+/* ----------- COMPONENTS ----------- */
+
 .btn {
     font-weight: 400;
     font-size: 16px;
@@ -106,28 +112,47 @@ ul{
 }
 
 .btn-primary:link, .btn-primary:visited {
-    color: #339af0;
+    color: #ffffff;
+    background-color: #339af0;
 }
 
 .btn-primary:hover, .btn-primary:active {
-    color: #1c7ed6;
+    color: #ffffff;
+    background-color: #1c7ed6;
 }
 
 .btn-secondary:link, .btn-secondary:visited{
-    color: #9775fa;
+    color: #ffffff;
+    background-color: #9775fa;
 }
 
 .btn-secondary:hover, .btn-secondary:active {
-    color: #7048e8;
+    color: #ffffff;
+    background-color: #7048e8;
 }
+
+/* ----------- SECTIONS ----------- */
+
+/* ----- HERO SECTION ----- */
 
 .hero-section{
     text-align: center;
 }
 
+
+/* ----- FEATURE SECTION ----- */
+
+.features-main-heading{
+    text-align: center;
+}
+
+/* ----- CTA SECTION ----- */
+
 .cta-section{
     text-align: center;
 }
+
+/* ----- FOOTER ----- */
 
 .footer{
     text-align: center;
