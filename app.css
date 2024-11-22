@@ -100,6 +100,11 @@ p{
 a{
     text-decoration: none;
     font-size: 16px;
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
 }
 
 ul{
@@ -202,7 +207,7 @@ ul{
 }
 
 .hero-paragraph {
-    margin-bottom: 50px;
+    margin-bottom: 50px;  
 }
 
 
@@ -223,9 +228,9 @@ ul{
 
 /* ----- CTA SECTION ----- */
 
-/* .cta-section{
- 
-}*/
+.cta-section{
+    margin-bottom: 300px; 
+}
 
 .cta-card {
     text-align: center;
