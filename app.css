@@ -51,6 +51,8 @@ Black: #000000 (black)
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -222,6 +224,10 @@ ul{
     margin-bottom: 80px;
 }
 
+.features-heading {
+    margin-bottom: 20px;
+}
+
 .feature-img {
     width: 400px;
 }
@@ -238,6 +244,10 @@ ul{
     width: 1000px;
     padding: 100px 200px;
     border-radius: 20px;
+}
+
+.cta-heading {
+    margin-bottom: 30px;
 }
 
 /* ----- FOOTER ----- */
