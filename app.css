@@ -131,9 +131,9 @@ ul{
 
 .btn {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 1.5rem 3rem;
     border-radius: 8px;
 }
 
@@ -175,7 +175,7 @@ ul{
 
 .highlight {
     color: #ffffff;
-    padding: 5px 10px;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
 }
 
@@ -204,38 +204,38 @@ ul{
 /* ----- NAVBAR ----- */
 
 .navbar {
-    margin-bottom: 200px;
+    margin-bottom: 20rem;
 }
 
 /* ----- HERO SECTION ----- */
 
 .hero-section{
     text-align: center;
-    margin-bottom: 300px;
+    margin-bottom: 30rem;
 }
 
 .hero-heading {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .hero-paragraph {
-    margin-bottom: 50px;  
+    margin-bottom: 5rem;  
 }
 
 
 /* ----- FEATURE SECTION ----- */
 
 .features-section {
-    margin-bottom: 300px;
+    margin-bottom: 30rem;
 }
 
 .features-main-heading{
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
 }
 
 .features-heading {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .feature-img {
@@ -246,20 +246,20 @@ ul{
 /* ----- CTA SECTION ----- */
 
 .cta-section{
-    margin-bottom: 300px; 
+    margin-bottom: 30rem; 
 }
 
 .cta-card {
     text-align: center;
     background-color: #339af0;
     max-width: 1000px;
-    padding: 100px 200px;
+    padding: 10rem 20rem;
     border-radius: 20px;
     margin: 0 auto;
 }
 
 .cta-heading {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 /* ----- FOOTER ----- */
