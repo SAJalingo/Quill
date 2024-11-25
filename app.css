@@ -49,6 +49,19 @@ Black: #000000 (black)
 
 /* ----------- GLOBAL STYLES ----------- */
 
+:root {
+    /* FONT SIZE */
+    --text-sm: 12px;
+    --text-base: 16px;
+    --text-paragraph: 20px;
+    --text-h5: 24px;
+    --text-h4: 32px;
+    --text-h3: 40px;
+    --text-h2: 48px;
+    --text-h1: 62px;
+
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
