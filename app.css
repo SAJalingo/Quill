@@ -89,6 +89,9 @@ Black: #000000 (black)
     --grey-shade: #212529;
     --white: #ffffff;
     --black: #000000;
+
+    /* COLORS */
+    --nav-height: 300px;
 }
 
 * {
@@ -203,7 +206,7 @@ ul{
 }
 
 .btn-secondary:link, .btn-secondary:visited{
-    color: var(white);
+    color: var(--white);
     background-color: var(--secondary-base);
     border: 2px solid var(--secondary-base);
 }
@@ -244,21 +247,22 @@ ul{
 
 /* ----- HEADER ----- */
 
-.header {
-    height: 100vh;
-    min-height: 800px;
-}
+
 /* ----- NAVBAR ----- */
 
 .navbar {
-    margin-bottom: 20rem;
+    height: var(--nav-height);
+    display: flex;
+    justify-content: space-between;
 }
 
 /* ----- HERO SECTION ----- */
 
 .hero-section{
+    height: calc(100vh - var(--nav-height));
     text-align: center;
-    margin-bottom: 30rem;
+    min-height: 400px;
+    margin-bottom: 10rem;
 }
 
 .hero-heading {
@@ -312,7 +316,8 @@ ul{
 /* ----- FOOTER ----- */
 
 .footer{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .social-icons {
