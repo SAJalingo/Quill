@@ -91,7 +91,7 @@ Black: #000000 (black)
     --black: #000000;
 
     /* MISCELLANEOUS */
-    --nav-height: 300px;
+    --nav-height: 100px;
 }
 
 * {
@@ -255,6 +255,11 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-btn-container{
+    display: flex;
+    gap: 2rem;
 }
 
 /* ----- HERO SECTION ----- */
